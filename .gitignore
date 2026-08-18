@@ -1,0 +1,76 @@
+# ESP32 EduTech - Git Ignore
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arduino
+*.ino~
+*.pde~
+
+# PlatformIO
+.pioenvs/
+.piolibdeps/
+*.elf
+*.bin
+*.hex
+*.map
+
+# Build artifacts
+build/
+dist/
+*.o
+*.d
+*.a
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Hardware design files (binary)
+*.schdoc
+*.pcbdoc
+*.prjpcb
+*.OutJob
+*.ECO
+
+# 3D printing
+*.stl
+*.step
+*.stp
+*.iges
+*.igs
+
+# Test
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment
+.env
+.env.local
+*.local
+
+# Documentation build
+docs/_build/
+docs/.doctrees/
+
+# Node (if website)
+node_modules/
+package-lock.json
