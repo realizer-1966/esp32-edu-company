@@ -368,6 +368,40 @@ board_build.psram_type = opi
 
 ---
 
+## 📡 Heltec V3 LoRa 보드를 가지고 있다면?
+
+**Heltec V3 ESP32-S3 LoRa** 보드가 있다면 장거리 통신 (수 km) 이 가능합니다!
+
+### 빠른 시작
+```bash
+# 1. Heltec V3 예제로 이동
+cd firmware/heltec-v3-examples/01-lora-basic
+
+# 2. 보드 선택 (platformio.ini)
+# board = heltec_wifi_lora_32_V3
+
+# 3. 빌드 및 업로드
+pio lib install
+pio run --target upload
+
+# 4. 안테나 연결 (중요!)
+# LoRa 안테나를 U.FL 커넥터에 연결
+
+# 5. 100m 이격 후 테스트
+```
+
+### Meshtastic 펌웨어 (바로 사용)
+```
+1. https://meshtastic.org/docs/software/android/installation/ 접속
+2. Heltec V3 선택 → Flash 클릭
+3. Android 앱으로 연결 (블루투스)
+4. 채팅/센서/지도 사용
+```
+
+자세한 가이드: [docs/HELTEC_V3_DEVELOPMENT.md](docs/HELTEC_V3_DEVELOPMENT.md)
+
+---
+
 **축하합니다! 개발환경이 준비되었습니다.** 🎉
 
 이제 ESP32-S3 로 헬스케어 디바이스를 개발할 수 있습니다!
