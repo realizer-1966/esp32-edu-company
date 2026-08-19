@@ -38,6 +38,12 @@ ESP32 기반 교육용 IoT 키트를 개발하고 보급하는 교육 기술 스
 - **Healthcare Kit AI**: 299,000 원 (2.16 인치 AMOLED, AI 가속, 프리미엄)
 - **프로젝트**: 심박 워치, 음성 건강 비서, AI 수면 코치, 스마트 워치
 
+### 6. LoRa 장거리 통신 키트 🆕
+- **LoRa Basic Kit**: 199,000 원 (Heltec V3 × 2, LoRa 안테나 × 2, BME280)
+- **LoRa Healthcare Kit**: 249,000 원 (Heltec V3 × 2, MAX30102, MPU6050, GPS)
+- **LoRa Smart Farm Kit**: 229,000 원 (Heltec V3 × 3, BME680, 토양수분, 태양광)
+- **프로젝트**: 장거리 심박 모니터링, 낙상 감지 119 연동, 스마트팜 환경감시
+
 ---
 
 ## 🎓 교육 커리큘럼
