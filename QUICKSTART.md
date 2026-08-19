@@ -338,11 +338,33 @@ board_build.psram_type = opi
 - [개발환경 상세 가이드](docs/DEVELOPMENT_ENVIRONMENT.md)
 - [WiFi 동작감지 가이드](docs/wifi-sensing-guide.md)
 - [BLE 복합 활용 가이드](docs/bluetooth-hybrid-guide.md)
+- [Android 폰에서 개발하기](docs/ANDROID_DEVELOPMENT.md) ⭐
 
 ### 커뮤니티
 - [GitHub Issues](https://github.com/realizer-1966/esp32-edu-company/issues)
 - [ESP32 Forum](https://esp32.com/)
 - [PlatformIO Community](https://community.platformio.org/)
+
+---
+
+## 📱 Android 폰에서도 가능한가요?
+
+**네, 제한적으로 가능합니다!**
+
+### 빠른 방법 (추천)
+1. **Wokwi** (브라우저): https://wokwi.com
+   - 설치 불필요, ESP32 시뮬레이션
+   - 코드 작성 → 실시간 테스트 → GitHub 공유
+
+2. **ArduinoDroid** (앱): Google Play
+   - 오프라인 개발, USB OTG 로 업로드
+   - 실제 하드웨어 테스트 가능
+
+3. **Termux + PlatformIO** (고급)
+   - CLI 기반, PC 와 유사한 환경
+   - ARM64 호환성 문제 주의
+
+자세한 가이드: [docs/ANDROID_DEVELOPMENT.md](docs/ANDROID_DEVELOPMENT.md)
 
 ---
 
